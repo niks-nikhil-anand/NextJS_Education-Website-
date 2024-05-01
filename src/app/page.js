@@ -1,8 +1,7 @@
 import About from "@/component/About";
-import Carousel from "@/component/Carousel";
+import { Carouselcomp } from "@/component/Carousel";
 import Category from "@/component/Category";
 import ClassList from "@/component/ClassList";
-import Features from "@/component/Features";
 import Footer from "@/component/Footer";
 import Form from "@/component/Form";
 import { Navbar } from "@/component/Navbar";
@@ -16,16 +15,16 @@ export default function Home() {
   return (
    
     <>
-    <TopCta/>
+   
     <Navbar/>
-    <Carousel/>
+    <Carouselcomp/>
     <About/>
     <Category/>
     <ClassList/>
     <Post/>
     <Form/>
     <Section/>
-    <Features/>
+    
     <Footer/>
     
     </>

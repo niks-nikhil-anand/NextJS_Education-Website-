@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+import keepPreset from "keep-react/preset";
+
 module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,6 +10,7 @@ module.exports = {
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  presets: [require("keep-react/preset")],
   theme: {
     extend: {
       backgroundImage: {
