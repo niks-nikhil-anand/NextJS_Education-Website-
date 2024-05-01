@@ -2,6 +2,7 @@
 
 import React from 'react'
 import { Menu, X } from 'lucide-react'
+import logo from '../../public/logo.png'
 
 const menuItems = [
   {
@@ -43,7 +44,7 @@ export function Navbar() {
               />
             </svg>
           </span>
-          <span className="font-bold">2Solution</span>
+          <span className="font-bold">Cranax Education</span>
         </div>
         <div className="hidden grow items-start lg:flex">
           <ul className="ml-12 inline-flex space-x-8">
@@ -64,7 +65,7 @@ export function Navbar() {
             type="button"
             className="rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
           >
-            Button text
+            Get Quote
           </button>
         </div>
         <div className="lg:hidden">
@@ -90,7 +91,7 @@ export function Navbar() {
                         />
                       </svg>
                     </span>
-                    <span className="font-bold">DevUI</span>
+                    <span className="font-bold">Cranax Education</span>
                   </div>
                   <div className="-mr-2">
                     <button
@@ -122,7 +123,7 @@ export function Navbar() {
                   type="button"
                   className="mt-4 w-full rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                 >
-                  Button text
+                  Get Quote
                 </button>
               </div>
             </div>

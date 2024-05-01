@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import logo from '../../public/logo.png'
+import Link from 'next/link'
 
 const Footer = () => {
   return (
@@ -59,8 +60,11 @@ const Footer = () => {
           </a>
         </div>
 
-        <p class='text-gray-300 text-sm'>© 2023<a href='https://readymadeui.com/' target='_blank'
-          class="hover:underline mx-1">2Solution</a>All Rights Reserved.
+        <p class='text-gray-300 text-sm'>© 2024
+       
+        <Link href='</a>' target='_blank'
+          class="hover:underline mx-1">Cranax Education and Career Solutions Pvt. Ltd.
+          Made By 2Solution </Link>
         </p>
       </div>
     </footer>
