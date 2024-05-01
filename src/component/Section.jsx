@@ -37,7 +37,7 @@ const Section = () => {
           <Image src= {contact} class="w-full h-full object-contain shadow-[0_2px_22px_-10px_rgba(93,96,127,0.2)]" alt="Dining Experience" height={400} width={400} />
         </div>
       </div>
-      <div class="mt-12 flex justify-between items-center  ">
+      <div class="mt-12 flex justify-between items-center flex-wrap flex-col md:flex-row ">
         <Link href={"https://wa.link/awqpn5"}>
         <Image src={whatsapp} class="w-28 mx-auto" alt="google-logo" width={200} height={400}/>
         </Link>
