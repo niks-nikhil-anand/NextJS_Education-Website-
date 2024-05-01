@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import React from 'react'
 
 
@@ -123,10 +124,12 @@ export default function ContactPageOne() {
                 </form>
               </div>
             </div>
-            <img
+            <Image
               alt="Contact us"
               className="hidden max-h-full w-full rounded-lg object-cover lg:block"
               src="https://images.unsplash.com/photo-1615840287214-7ff58936c4cf?ixlib=rb-4.0.3&auto=format&fit=crop&w=687&h=800&q=80"
+              height={300}
+              width={300}
             />
           </div>
         </div>

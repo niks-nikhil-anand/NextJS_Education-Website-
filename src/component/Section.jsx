@@ -1,4 +1,10 @@
+import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
+import whatsapp from '../../public/whatsapp.png'
+import instagram from '../../public/instagram.png'
+import telegram from '../../public/telegram.png'
+import contact from '../../public/contact.jpg'
 
 const Section = () => {
   return (
@@ -28,14 +34,25 @@ const Section = () => {
           </div>
         </div>
         <div class="md:h-[450px] p-2">
-          <img src="https://readymadeui.com/image-1.webp" class="w-full h-full object-contain shadow-[0_2px_22px_-10px_rgba(93,96,127,0.2)]" alt="Dining Experience" />
+          <Image src= {contact} class="w-full h-full object-contain shadow-[0_2px_22px_-10px_rgba(93,96,127,0.2)]" alt="Dining Experience" height={400} width={400} />
         </div>
       </div>
-      <div class="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4 items-center">
-        <img src="https://readymadeui.com/google-logo.svg" class="w-28 mx-auto" alt="google-logo" />
-        <img src="https://readymadeui.com/facebook-logo.svg" class="w-28 mx-auto" alt="facebook-logo" />
-        <img src="https://readymadeui.com/linkedin-logo.svg" class="w-28 mx-auto" alt="linkedin-logo" />
-        <img src="https://readymadeui.com/pinterest-logo.svg" class="w-28 mx-auto" alt="pinterest-logo" />
+      <div class="mt-12 flex justify-between items-center  ">
+        <Link href={"https://wa.link/awqpn5"}>
+        <Image src={whatsapp} class="w-28 mx-auto" alt="google-logo" width={200} height={400}/>
+        </Link>
+        <Link href={"https://t.me/cranaxtalks"}>
+        <Image src={telegram}class="w-28 mx-auto" alt="google-logo" width={200} height={200}/>
+        </Link>
+        <Link href={"https://www.instagram.com/cranaxeducation?igsh=dzFiZGQ5NDljNTM0"}>
+        <Image src={instagram}class="w-28 mx-auto" alt="google-logo" width={200} height={200}/>
+        </Link>
+       
+        <Link href={"https://www.linkedin.com/company/cranax-education-and-career-solutions-pvt-ltd/"}>
+        <Image src="https://readymadeui.com/linkedin-logo.svg" class="w-28 mx-auto" alt="google-logo" width={200} height={200}/>
+        </Link>
+       
+       
       </div>
     </div>
     </div>

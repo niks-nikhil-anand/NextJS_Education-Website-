@@ -6,7 +6,7 @@ const posts = [
       id: 1,
       title: 'HOW TO WOW IN COMMUNICATION SKILLS?',
       imageUrl:
-          'https://plus.unsplash.com/premium_photo-1699968040330-93f35b218305?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGFzdHJvbG9neXxlbnwwfDB8MHx8fDA%3D', 
+          'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y29tbXVuaWNhdGlvbnxlbnwwfHwwfHx8MA%3D%3D', 
       href: '#',
       description:
         'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
@@ -25,7 +25,7 @@ const posts = [
       id: 1,
       title: 'TAKE YOUR ENGLISH TO NEXT LEVEL',
       imageUrl:
-          'https://images.unsplash.com/photo-1637757935037-a7837f36807d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGFzdHJvbG9neXxlbnwwfDB8MHx8fDA%3D', 
+          'https://images.unsplash.com/photo-1565022536102-f7645c84354a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZW5nbGlzaCUyMGNsYXNzfGVufDB8fDB8fHww', 
       href: '#',
       description:
         'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
@@ -44,7 +44,7 @@ const posts = [
       id: 1,
       title: 'JOIN US FOR PERSONALITY DEVELOPMENT',
       imageUrl:
-      'https://images.unsplash.com/photo-1612323272007-3e7c28f6eb05?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fGFzdHJvbG9neXxlbnwwfDB8MHx8fDA%3D', 
+      'https://images.unsplash.com/photo-1485546246426-74dc88dec4d9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHBlcnNvbmFsaXR5fGVufDB8fDB8fHww', 
       href: '#',
       description:
         'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
@@ -73,7 +73,9 @@ const posts = [
           <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
             {posts.map((post) => (
               <article key={post.id} className="flex max-w-xl flex-col items-start justify-between"> 
-               <Image src={post.imageUrl} height={300} width={300} className="rounded-lg"/>
+               <Image src={post.imageUrl} height={300} width={300} className="rounded-lg"
+               alt="temp"
+               />
                 <div className="flex items-center gap-x-4 text-xs">
 
                   <time dateTime={post.datetime} className="text-gray-500">
@@ -95,18 +97,7 @@ const posts = [
                   </h3>
                   <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">{post.description}</p>
                 </div>
-                <div className="relative mt-8 flex items-center gap-x-4">
-                  <img src={post.author.avtaarUrl} alt="" className="h-10 w-10 rounded-full bg-gray-50" />
-                  <div className="text-sm leading-6">
-                    <p className="font-semibold text-gray-900">
-                      <a href={post.author.href}>
-                        <span className="absolute inset-0" />
-                        {post.author.name}
-                      </a>
-                    </p>
-                    <p className="text-gray-600">{post.author.role}</p>
-                  </div>
-                </div>
+                
               </article>
             ))}
           </div>

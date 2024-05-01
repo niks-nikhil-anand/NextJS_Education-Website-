@@ -2,13 +2,13 @@ import React from 'react'
 
 const Form = () => {
   return (
-    <div className='bg-[#2e0249]'>
+    <div className='text-white bg-gradient-to-r from-purple-800 to-indigo-800'>
        <div class="">
-            <div class="max-w-6xl mx-auto bg-[#2e0249] rounded-lg">
+            <div class="max-w-6xl mx-auto text-white bg-gradient-to-r from-purple-800 to-indigo-800 rounded-lg">
                 <div class="grid md:grid-cols-2 items-center gap-16 sm:p-10 p-4 font-[sans-serif]">
                     <div>
                         <h1 class="text-4xl font-extrabold text-white">Get in Touch</h1>
-                        <p class="text-sm text-gray-400 mt-3">Have some big idea or brand to develop and need help? Then reach out we'd love to hear about your project  and provide help.</p>
+                        <p class="text-sm text-gray-400 mt-3">Have some big idea or brand to develop and need help? Then reach out we love to hear about your project  and provide help.</p>
                         <ul class="mt-12 space-y-8">
                             <li class="flex items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" fill='#fff'
@@ -74,7 +74,7 @@ const Form = () => {
                         </ul>
                     </div>
                     <div class="bg-gray-200 p-6 rounded-lg">
-                        <p class="text-sm font-semibold text-[#333]">I'm interested in...</p>
+                        <p class="text-sm font-semibold text-[#333]">I am interested in...</p>
                         <div class="space-y-4 max-lg:mt-4">
                             <button type="button" class="px-4 py-2 rounded-md bg-[#a91079] text-white text-sm tracking-wider font-medium outline-none border-2 border-[#a91079] mr-4">Web design</button>
                             <button type="button" class="px-4 py-2 rounded-md bg-transparent text-gray-400 text-sm tracking-wider font-medium outline-none border-2 border-gray-300 mr-4">Graphic design</button>

@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Footer = () => {
@@ -51,7 +52,12 @@ const Footer = () => {
         </div>
 
         <div class="flex items-center lg:justify-center">
-          <a href='javascript:void(0)'><img src="https://readymadeui.com/readymadeui-light.svg" alt="logo" class='w-60' /></a>
+          <a href='javascript:void(0)'>
+            <Image src="https://readymadeui.com/readymadeui-light.svg" alt="logo" class='w-60'
+            height={300}
+            width={300}
+            
+            /></a>
         </div>
       </div>
 

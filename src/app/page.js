@@ -23,9 +23,9 @@ export default function Home() {
     <Category/>
     <ClassList/>
     <Post/>
+    <Form/>
     <Section/>
     <Features/>
-    <Form/>
     <Footer/>
     
     </>
