@@ -2,14 +2,11 @@ import About, { TextParallaxContentExample } from "@/component/About";
 import ShuffleHero, { Carouselcomp } from "@/component/Carousel";
 import Category from "@/component/Category";
 import ClassList from "@/component/ClassList";
-import Footer from "@/component/Footer";
 import Form from "@/component/Form";
 import Images from "@/component/Images";
-import ButtonBaseDemo from "@/component/Images";
-import  { Navbar } from "@/component/Navbar";
 import Post from "@/component/Post";
-import Section, { NewsLetterFour } from "@/component/Section";
-import TopCta from "@/component/TopCta";
+import  { NewsLetterFour } from "@/component/Section";
+
 
 
 
@@ -18,7 +15,7 @@ export default function Home() {
    
     <>
    
-    <Navbar/>
+    
     <ShuffleHero/>
     <TextParallaxContentExample/>
     <Category/>
@@ -27,7 +24,7 @@ export default function Home() {
     <Form/>
     <Images/>
     <NewsLetterFour/> 
-    <Footer/>
+  
     
     </>
   );

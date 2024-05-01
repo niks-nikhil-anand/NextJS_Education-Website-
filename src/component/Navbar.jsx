@@ -7,15 +7,15 @@ import logo from '../../public/logo.png'
 const menuItems = [
   {
     name: 'Home',
-    href: '#',
+    href: '/',
   },
   {
     name: 'About',
-    href: '#',
+    href: '/about',
   },
   {
     name: 'Contact',
-    href: '#',
+    href: '/contact',
   },
 ]
 
