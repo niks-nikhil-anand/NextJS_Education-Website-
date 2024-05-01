@@ -56,7 +56,7 @@ const Footer = () => {
             <Image src="https://readymadeui.com/readymadeui-light.svg" alt="logo" class='w-60'
             height={300}
             width={300}
-            
+
             /></a>
         </div>
       </div>
@@ -89,7 +89,7 @@ const Footer = () => {
         </div>
 
         <p class='text-gray-300 text-sm'>© 2023<a href='https://readymadeui.com/' target='_blank'
-          class="hover:underline mx-1">ReadymadeUI</a>All Rights Reserved.
+          class="hover:underline mx-1">2Solution</a>All Rights Reserved.
         </p>
       </div>
     </footer>
