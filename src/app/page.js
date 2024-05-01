@@ -6,7 +6,7 @@ import Footer from "@/component/Footer";
 import Form from "@/component/Form";
 import { Navbar } from "@/component/Navbar";
 import Post from "@/component/Post";
-import Section from "@/component/Section";
+import Section, { NewsLetterFour } from "@/component/Section";
 import TopCta from "@/component/TopCta";
 
 
@@ -23,7 +23,7 @@ export default function Home() {
     <ClassList/>
     <Post/>
     <Form/>
-    <Section/>
+    <NewsLetterFour/>
     
     <Footer/>
     

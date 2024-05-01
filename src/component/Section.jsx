@@ -1,62 +1,86 @@
-import Image from 'next/image'
-import Link from 'next/link'
 import React from 'react'
-import whatsapp from '../../public/whatsapp.png'
-import instagram from '../../public/instagram.png'
-import telegram from '../../public/telegram.png'
-import contact from '../../public/contact.jpg'
+import { Star } from 'lucide-react'
 
-const Section = () => {
+export function NewsLetterFour() {
   return (
-    <div>
-        <div class="font-sans text-[#333] max-w-6xl max-md:max-w-md mx-auto">
-      <div class="grid md:grid-cols-2 items-center md:gap-8 gap-6">
-        <div class="max-md:order-1 max-md:text-center">
-          <p class="mt-4 text-sm font-bold text-blue-600"><span class="rotate-90 inline-block mr-2 mb-2">|</span> ALL IN ONE MEETING SCHEDULER</p>
-          <h2 class="md:text-5xl text-3xl font-extrabold mb-4 md:!leading-[55px]">Schedule meetings effortlessly</h2>
-          <p class="mt-4 text-base text-gray-500 leading-relaxed">Embark on a gastronomic journey with our curated dishes, delivered promptly to your doorstep. Elevate your dining experience today.</p>
-          <div class="bg-white mt-10 flex px-1 py-1.5 rounded-full shadow-[0_5px_22px_-8px_rgba(93,96,127,0.2)] overflow-hidden">
-            <input type='email' placeholder='Search Something...' class="w-full font-bold outline-none bg-white pl-4 text-sm" />
-            <button type='button'
-              class="bg-blue-600 hover:bg-blue-700 transition-all text-white font-bold text-sm rounded-full px-5 py-2.5">Search</button>
-          </div>
-          <div class="flex items-center mt-10">
-            <input id="checkbox3" type="checkbox" class="hidden peer" checked />
-            <label for="checkbox3"
-              class="relative flex items-center justify-center p-1 peer-checked:before:hidden before:block before:absolute before:w-full before:h-full before:bg-white w-5 h-5 cursor-pointer bg-blue-500 border rounded-full overflow-hidden">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-full fill-white" viewBox="0 0 520 520">
-                <path
-                  d="M79.423 240.755a47.529 47.529 0 0 0-36.737 77.522l120.73 147.894a43.136 43.136 0 0 0 36.066 16.009c14.654-.787 27.884-8.626 36.319-21.515L486.588 56.773a6.13 6.13 0 0 1 .128-.2c2.353-3.613 1.59-10.773-3.267-15.271a13.321 13.321 0 0 0-19.362 1.343q-.135.166-.278.327L210.887 328.736a10.961 10.961 0 0 1-15.585.843l-83.94-76.386a47.319 47.319 0 0 0-31.939-12.438z"
-                  data-name="7-Check" data-original="#000000" />
-              </svg>
-            </label>
-            <p class="text-base ml-3 text-gray-500">No credit card required!</p>
-          </div>
+    <div className="mx-auto max-w-7xl px-2 py-10 lg:px-0">
+      <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between lg:space-x-10">
+        <div className="mb-10 w-full md:w-2/3 lg:mb-0 lg:w-1/2">
+          <img
+            className="h-full w-full rounded-md object-cover"
+            src="https://images.unsplash.com/photo-1603575448878-868a20723f5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bWFuJTIwd2l0aCUyMGxhcHRvcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+            alt="Newsletter"
+          />
         </div>
-        <div class="md:h-[450px] p-2">
-          <Image src= {contact} class="w-full h-full object-contain shadow-[0_2px_22px_-10px_rgba(93,96,127,0.2)]" alt="Dining Experience" height={400} width={400} />
+        <div className="w-full md:w-2/3 lg:w-1/2">
+          <p className="text-sm font-bold text-black">Grow . Improve . Build Web Apps</p>
+          <h2 className="mt-4 text-3xl font-bold text-black">Sign up for our weekly newsletter</h2>
+          <p className="mt-4 text-gray-600">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc
+            commodo posuere et sit amet ligula.
+          </p>
+          <div className="mt-4">
+            <p className="font-semibold text-gray-800">
+              Trusted by over 100,000+ businesses and individuals
+            </p>
+            <div className="mt-2 flex items-center">
+              <div className="flex space-x-1">
+                {Array.from({ length: 5 }).map((_, i) => (
+                  <Star key={i} className="h-5 w-5 text-yellow-400" />
+                ))}
+              </div>
+              <span className="ml-2 inline-block">
+                <span className="text-sm font-semibold text-gray-800">4.8/5 . 3420 Reviews</span>
+              </span>
+            </div>
+            <div className="mt-4 flex items-center space-x-4">
+              <div className="isolate flex -space-x-2">
+                <img
+                  className="relative z-30 inline-block h-10 w-10 rounded-full ring-2 ring-white"
+                  src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+                  alt="Dan_Abromov"
+                />
+                <img
+                  className="relative z-20 inline-block h-10 w-10 rounded-full ring-2 ring-white"
+                  src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dXNlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+                  alt="Guillermo_Rauch"
+                />
+                <img
+                  className="relative z-10 inline-block h-10 w-10 rounded-full object-cover ring-2 ring-white"
+                  src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHVzZXJzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+                  alt="Lee_Robinson"
+                />
+                <img
+                  className="relative z-0 inline-block h-10 w-10 rounded-full ring-2 ring-white"
+                  src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHVzZXJzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+                  alt="Delba"
+                />
+              </div>
+              <span className="text-sm font-semibold text-gray-700">Join 5000+ Developers</span>
+            </div>
+          </div>
+          <form className="mt-6">
+            <div className="flex w-full max-w-md flex-col space-y-4">
+              <input
+                className="flex h-10 w-full rounded-md border border-black/30 bg-transparent px-3 py-2 text-sm placeholder:text-gray-600 focus:outline-none focus:ring-1 focus:ring-black/30 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
+                type="email"
+                placeholder="Email"
+              ></input>
+              <button
+                type="button"
+                className="w-full rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+              >
+                Subscribe
+              </button>
+            </div>
+          </form>
+          <p className="mt-2">
+            <span className="text-sm text-gray-600">
+              By signing up, you agree to our terms of service and privacy policy.
+            </span>
+          </p>
         </div>
       </div>
-      <div class="mt-12 flex justify-between items-center flex-wrap flex-col md:flex-row ">
-        <Link href={"https://wa.link/awqpn5"}>
-        <Image src={whatsapp} class="w-28 mx-auto" alt="google-logo" width={200} height={400}/>
-        </Link>
-        <Link href={"https://t.me/cranaxtalks"}>
-        <Image src={telegram}class="w-28 mx-auto" alt="google-logo" width={200} height={200}/>
-        </Link>
-        <Link href={"https://www.instagram.com/cranaxeducation?igsh=dzFiZGQ5NDljNTM0"}>
-        <Image src={instagram}class="w-28 mx-auto" alt="google-logo" width={200} height={200}/>
-        </Link>
-       
-        <Link href={"https://www.linkedin.com/company/cranax-education-and-career-solutions-pvt-ltd/"}>
-        <Image src="https://readymadeui.com/linkedin-logo.svg" class="w-28 mx-auto" alt="google-logo" width={200} height={200}/>
-        </Link>
-       
-       
-      </div>
-    </div>
     </div>
   )
 }
-
-export default Section
