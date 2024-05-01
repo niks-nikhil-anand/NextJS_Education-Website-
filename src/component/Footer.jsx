@@ -1,43 +1,18 @@
 import Image from 'next/image'
 import React from 'react'
+import logo from '../../public/logo.png'
 
 const Footer = () => {
   return (
     <div>
       <footer class="bg-gradient-to-r from-gray-900 via-gray-700 to-gray-900  py-14 px-16 font-sans relative">
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+       
+
+        
+
         <div>
           <h2 class="text-white text-lg font-semibold mb-4">Quick Links</h2>
-          <ul class="space-y-4">
-            <li>
-              <a href="javascript:void(0)" class="text-gray-300 hover:text-white text-sm transition-all">Newsroom</a>
-            </li>
-            <li>
-              <a href="javascript:void(0)" class="text-gray-300 hover:text-white text-sm transition-all">Tailwind CSS</a>
-            </li>
-            <li>
-              <a href="javascript:void(0)" class="text-gray-300 hover:text-white text-sm transition-all">Careers</a>
-            </li>
-          </ul>
-        </div>
-
-        <div>
-          <h2 class="text-white text-lg font-semibold mb-4">Follow Us</h2>
-          <ul class="space-y-4">
-            <li>
-              <a href="javascript:void(0)" class="text-gray-300 hover:text-white text-sm transition-all">Github</a>
-            </li>
-            <li>
-              <a href="javascript:void(0)" class="text-gray-300 hover:text-white text-sm transition-all">linkedin</a>
-            </li>
-            <li>
-              <a href="javascript:void(0)" class="text-gray-300 hover:text-white text-sm transition-all">Twitter</a>
-            </li>
-          </ul>
-        </div>
-
-        <div>
-          <h2 class="text-white text-lg font-semibold mb-4">Company</h2>
           <ul class="space-y-4">
             <li>
               <a href="javascript:void(0)" class="text-gray-300 hover:text-white text-sm transition-all">About</a>
@@ -53,7 +28,7 @@ const Footer = () => {
 
         <div class="flex items-center lg:justify-center">
           <a href='javascript:void(0)'>
-            <Image src="https://readymadeui.com/readymadeui-light.svg" alt="logo" class='w-60'
+            <Image src={logo} alt="logo" class='w-60'
             height={300}
             width={300}
 
