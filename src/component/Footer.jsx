@@ -5,12 +5,8 @@ import logo from '../../public/logo.png'
 const Footer = () => {
   return (
     <div>
-      <footer class="bg-gradient-to-r from-gray-900 via-gray-700 to-gray-900  py-14 px-16 font-sans relative">
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-       
-
-        
-
+      <footer class="bg-gradient-to-r from-gray-900 via-gray-700 to-gray-900  py-14 px-16 font-sans relative ">
+      <div class="flex  justify-around flex-col md:flex-row">
         <div>
           <h2 class="text-white text-lg font-semibold mb-4">Quick Links</h2>
           <ul class="space-y-4">

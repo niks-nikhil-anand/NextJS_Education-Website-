@@ -9,8 +9,8 @@ const posts = [
           'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y29tbXVuaWNhdGlvbnxlbnwwfHwwfHx8MA%3D%3D', 
       href: '#',
       description:
-        'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
-      date: 'Mar 16, 2020',
+        'Master the art of effective communication with our expert-led courses, tailored to enhance your confidence and impact.',
+      date: 'Cranax Education',
       datetime: '2020-03-16',
       category: { title: 'Marketing', href: '#' },
       author: {
@@ -28,10 +28,9 @@ const posts = [
           'https://images.unsplash.com/photo-1565022536102-f7645c84354a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZW5nbGlzaCUyMGNsYXNzfGVufDB8fDB8fHww', 
       href: '#',
       description:
-        'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
-      date: 'Mar 16, 2020',
+        'Elevate your English proficiency through immersive learning experiences designed to refine your language skills and fluency.',
       datetime: '2020-03-16',
-      category: { title: 'Marketing', href: '#' },
+      category: { title: 'Language', href: '#' },
       author: {
         name: 'Michael Foster',
         role: 'Co-Founder / CTO',
@@ -47,10 +46,10 @@ const posts = [
       'https://images.unsplash.com/photo-1485546246426-74dc88dec4d9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHBlcnNvbmFsaXR5fGVufDB8fDB8fHww', 
       href: '#',
       description:
-        'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
-      date: 'Mar 16, 2020',
+        'Discover your true potential, cultivate essential skills, and radiate confidence in every aspect of your life with our holistic approach to personality development.',
+      date: 'Cranax Education',
       datetime: '2020-03-16',
-      category: { title: 'Marketing', href: '#' },
+      category: { title: 'Personality', href: '#' },
       author: {
         name: 'Michael Foster',
         role: 'Co-Founder / CTO',
@@ -68,7 +67,7 @@ const posts = [
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           
           <div className="w-full  ">
-           <Header/>
+          
           </div>
           <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
             {posts.map((post) => (

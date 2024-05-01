@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export function NewsLetterFour() {
   return (
-    <div className="mx-auto max-w-7xl px-[3rem] py-10 lg:px-0">
+    <div className="mx-auto max-w-7xl px-[3rem] py-10 lg:px-0 mt-5">
       <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between lg:space-x-10">
         <div className="mb-10 w-full md:w-2/3 lg:mb-0 lg:w-1/2">
           <Image
@@ -16,7 +16,7 @@ export function NewsLetterFour() {
           />
         </div>
         <div className="w-full md:w-2/3 lg:w-1/2">
-          <p className="text-sm font-bold text-black">Grow . Improve . Build Web Apps</p>
+          <p className="text-sm font-bold text-black">Learn . Grow . Improve</p>
           <h2 className="mt-4 text-xl font-bold text-black">Sign up for our weekly newsletter</h2>
           <p className="mt-4 text-gray-600">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc

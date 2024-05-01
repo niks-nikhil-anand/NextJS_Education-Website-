@@ -26,8 +26,7 @@ export default function Home() {
     <Post/>
     <Form/>
     <Images/>
-    <NewsLetterFour/>
-    
+    <NewsLetterFour/> 
     <Footer/>
     
     </>
