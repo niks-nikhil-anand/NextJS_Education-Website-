@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <hr class=" border-gray-600" />
+      <hr class="mb-2 border-gray-600" />
 
       <div class="flex sm:justify-between flex-wrap gap-6">
         <div class="flex space-x-5">
