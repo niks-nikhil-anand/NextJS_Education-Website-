@@ -7,6 +7,13 @@ export const TextParallaxContentExample = () => {
   return (
     <div className="bg-white">
       <TextParallaxContent
+        imgUrl="https://images.pexels.com/photos/6936147/pexels-photo-6936147.jpeg?auto=compress&cs=tinysrgb&w=600"
+        subheading="Academics"
+        heading="Class 9th-12th ICSE/CBSE"
+      >
+        
+      </TextParallaxContent>
+      <TextParallaxContent
         imgUrl="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         subheading="Marketing"
         heading="Digital Marketing Training"

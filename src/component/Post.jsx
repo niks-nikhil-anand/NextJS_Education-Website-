@@ -29,7 +29,7 @@ const posts = [
       href: '#',
       description:
         'Elevate your English proficiency through immersive learning experiences designed to refine your language skills and fluency.',
-      datetime: '2020-03-16',
+        date: 'Cranax Education',
       category: { title: 'Language', href: '#' },
       author: {
         name: 'Michael Foster',
@@ -56,6 +56,25 @@ const posts = [
         href: '#',
         avtaarUrl:
           'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      },
+    },
+    {
+      id: 1,
+      title: 'Excel in Academics',
+      imageUrl:
+      'https://images.pexels.com/photos/335393/pexels-photo-335393.jpeg?auto=compress&cs=tinysrgb&w=600', 
+      href: '#',
+      description:
+        'Empowering Students for Success in Commerce Stream!',
+      date: 'Cranax Education',
+      datetime: '2020-03-16',
+      category: { title: 'Personality', href: '#' },
+      author: {
+        name: 'Michael Foster',
+        role: 'Co-Founder / CTO',
+        href: '#',
+        avtaarUrl:
+          'https://images.pexels.com/photos/335393/pexels-photo-335393.jpeg?auto=compress&cs=tinysrgb&w=600 ',
       },
     },
     // More posts...

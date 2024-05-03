@@ -29,10 +29,11 @@ const callouts = [
       imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
       href: '#',
     },
+   
     {
       name: 'Marketing',
       description: 'Digital Marketing Training ',
-      imageSrc: 'https://plus.unsplash.com/premium_photo-1683262038148-2ac280407276?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGRpZ2l0YWwlMjBtYXJrZXRpbmd8ZW58MHx8MHx8fDA%3D',
+      imageSrc: 'https://images.pexels.com/photos/590041/pexels-photo-590041.jpeg?auto=compress&cs=tinysrgb&w=600',
       imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
       href: '#',
     },
