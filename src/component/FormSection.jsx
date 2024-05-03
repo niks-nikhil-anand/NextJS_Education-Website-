@@ -50,10 +50,10 @@ const ContactForm = () => {
     return (
         <div className="bg-gray-200 p-6 rounded-lg">
             <p className="text-sm font-semibold text-[#333]">I am interested in...</p>
-            <div className="space-x-4 max-lg:mt-4 lg:flex-row flex mt-4">
+            <div className=" flex flex-col gap-5 mt-3">
                 <button
                     type="button"
-                    className={`px-4 py-2 rounded-md ${formData.interest === 'Academics' ? 'bg-[#a91079] text-white' : 'bg-transparent text-[#a91079] bold'} text-sm tracking-wider font-medium outline-none border-2 border-[#a91079]`}
+                    className={`px-2 py-2 rounded-md ${formData.interest === 'Academics' ? 'bg-[#a91079] text-white' : 'bg-transparent text-[#a91079] bold'} text-sm tracking-wider font-medium outline-none border-2 border-[#a91079]`}
                     onClick={() => setFormData({ ...formData, interest: 'Academics' })}
                 >
                     Academics
